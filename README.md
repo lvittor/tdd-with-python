@@ -1,12 +1,5 @@
 # pytest - helps you write better programs
 
-# unittest — Unit testing framework
-
-![](https://github.com/lvittor/tdd-with-python/actions/workflows/main.yml/badge.svg?branch=unittest)
-
-> *"The unittest unit testing framework was originally inspired by JUnit and has a similar flavor as major unit testing frameworks in other languages. It supports test automation, sharing of setup and shutdown code for tests, aggregation of tests into collections, and independence of the tests from the reporting framework."*
-> - <cite>[Python docs](docs.python.org/3/library/unittest.html)</cite>
-
 ## Requirements
 To run the tests you should first install the project requirements.
 - python >=3.8
