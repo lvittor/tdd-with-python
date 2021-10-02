@@ -5,7 +5,7 @@ description = "A practical guide to unit testing in python with unittest and pyt
 authors = ["lvittor <lvittor@itba.edu.ar>"]
 
 [tool.poetry.dependencies]
-python = "3.8"
+python = "^3.8"
 unittest = "^0.0"
 
 [tool.poetry.dev-dependencies]
