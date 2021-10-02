@@ -26,3 +26,10 @@ class TestRectangle(unittest.TestCase):
 
     def test_is_rectangle(self):
         self.assertIsInstance(self.rectangle, Rectangle)
+
+    # subTest can be used to distinguish specific tests.
+    def test_even_area(self):
+        for i in range(1, 6):
+            rec = Rectangle(Point(0, 0), Point(i * 2, i * 2))
+            with self.subTest(i=i):
+                self.assertEqual(rec.area() % 2, 0)

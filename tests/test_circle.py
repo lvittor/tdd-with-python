@@ -27,3 +27,13 @@ class TestCircle(unittest.TestCase):
 
     def tearDown(self):
         print("Test finished!")
+
+    """ 
+    Decorators are a very useful tool to avoid a 
+    test, skip it if a condition is met or isolate a test. 
+    
+    More info can be found in: https://docs.python.org/3/library/unittest.html#skipping-tests-and-expected-failures 
+    """
+    @unittest.skip("This could be used to avoid a test")
+    def testSkip(self):
+        self.fail("Oh no!")
