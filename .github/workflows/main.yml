@@ -18,6 +18,8 @@ jobs:
           architecture: x64
       - name: Install Poetry
         run: pip install poetry
+      - name: Set up Poetry
+        run: poetry env use 3.8
       - name: Install Poetry dependencies
         run: poetry install
       - name: Run Test
