@@ -1,9 +1,9 @@
-from Ellipse import Ellipse
-from Point import Point
+from src.Ellipse import Ellipse
+from src.Point import Point
 
 class Circle(Ellipse):
-    def __init__(centerPoint: Point, radius: float):
-        super().__init__(centerPoint, 2 * radius, 2 * radius)
+    def __init__(self, centerPoint: Point, radius: float):
+        super().__init__(centerPoint, radius, radius)
 
     def __str__(self):
-        return f"Circle [Center: {self.centerPoint} , Radius: {self.sMayorAxis / 2:.2f}]"
+        return f"Circle [Center: {self.centerPoint}, Radius: {self.sMayorAxis:.2f}]"

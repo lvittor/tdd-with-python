@@ -1,5 +1,7 @@
-from Figure import Figure
-from Point import Point
+from src.Figure import Figure
+from src.Point import Point
+
+from math import sqrt
 
 class Triangle(Figure):
     def __init__(self, firstPoint: Point, secondPoint: Point, thirdPoint: Point):

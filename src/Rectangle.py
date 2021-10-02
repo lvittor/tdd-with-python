@@ -1,5 +1,5 @@
-from Point import Point
-from Figure import Figure
+from src.Point import Point
+from src.Figure import Figure
 
 class Rectangle(Figure):
 
