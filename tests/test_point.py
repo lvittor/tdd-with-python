@@ -2,6 +2,7 @@ import unittest
 
 from src.Point import Point
 
+
 class TestPoint(unittest.TestCase):
 
     def setUp(self):
@@ -25,6 +26,6 @@ class TestPoint(unittest.TestCase):
         p3 = Point(1.2, 2.9)
         self.assertEqual(self.point, p2)
         self.assertNotEqual(self.point, p3)
-    
+
     def test_str(self):
         self.assertEqual(self.point.__str__(), "Point [x:3.00, y:4.00]")

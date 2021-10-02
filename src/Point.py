@@ -1,5 +1,6 @@
 from math import sqrt
 
+
 class Point:
     def __init__(self, x: float, y: float):
         self.x = x
@@ -7,7 +8,7 @@ class Point:
 
     def get_x(self) -> float:
         return self.x
-    
+
     def get_y(self) -> float:
         return self.y
 
@@ -18,7 +19,7 @@ class Point:
         if isinstance(other, self.__class__):
             return self.__dict__ == other.__dict__
         return False
-    
+
     def __ne__(self, other):
         return not self.__eq__(other)
 

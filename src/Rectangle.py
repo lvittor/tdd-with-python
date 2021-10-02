@@ -1,6 +1,7 @@
 from src.Point import Point
 from src.Figure import Figure
 
+
 class Rectangle(Figure):
 
     def __init__(self, topLeft: Point, bottomRight: Point):
@@ -20,4 +21,4 @@ class Rectangle(Figure):
         return (self.base() + self.height()) * 2
 
     def __str__(self):
-        return f"Rectangle [{self.topLeft}, {self.bottomRight}]" 
+        return f"Rectangle [{self.topLeft}, {self.bottomRight}]"

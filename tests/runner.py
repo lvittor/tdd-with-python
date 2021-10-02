@@ -1,5 +1,3 @@
-from src.Point import Point
-
 from tests import test_point
 from tests import test_ellipse
 from tests import test_circle
@@ -8,15 +6,17 @@ from tests import test_rectangle
 
 import unittest
 
+
 def suite():
-    suite = unittest.TestSuite()
+    test_suite = unittest.TestSuite()
     loader = unittest.TestLoader()
-    suite.addTests(loader.loadTestsFromModule(test_point))
-    suite.addTests(loader.loadTestsFromModule(test_rectangle))
-    suite.addTests(loader.loadTestsFromModule(test_triangle))
-    suite.addTests(loader.loadTestsFromModule(test_ellipse))
-    suite.addTests(loader.loadTestsFromModule(test_circle))
-    return suite
+    test_suite.addTests(loader.loadTestsFromModule(test_point))
+    test_suite.addTests(loader.loadTestsFromModule(test_rectangle))
+    test_suite.addTests(loader.loadTestsFromModule(test_triangle))
+    test_suite.addTests(loader.loadTestsFromModule(test_ellipse))
+    test_suite.addTests(loader.loadTestsFromModule(test_circle))
+    return test_suite
+
 
 if __name__ == '__main__':
     runner = unittest.TextTestRunner(verbosity=2)
