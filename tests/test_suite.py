@@ -1,10 +1,12 @@
+import unittest
+
 from tests import test_point
 from tests import test_ellipse 
 from tests import test_circle
 from tests import test_triangle
 from tests import test_rectangle 
 
-import unittest
+
 
 
 def suite():
