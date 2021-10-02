@@ -73,5 +73,5 @@ OK (skipped=1, expected failures=1)
 To run any particular test, you can execute the following command:
 
 ```bash
-$>  poetry run python -m unittest <test>
+poetry run python -m unittest <test>
 ```
