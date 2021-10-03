@@ -1,5 +1,6 @@
 # pytest - helps you write better programs
 
+![](https://github.com/lvittor/tdd-with-python/actions/workflows/main.yml/badge.svg?branch=pytest)
 
 > *"The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries."*
 > - <cite>[Pytest docs](docs.pytest.org/en/6.2.x)</cite>
