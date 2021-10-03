@@ -1,5 +1,3 @@
-# TDD with unittest & pytest
-
 <div align="center"><img src="http://iwt2.org/wp-content/uploads/2015/06/tdd-logo-300x235.png"></img></div>
 
 ![unittest](https://github.com/lvittor/tdd-with-python/actions/workflows/unittest.yml/badge.svg?branch=unittest)
