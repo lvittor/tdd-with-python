@@ -2,7 +2,8 @@
 
 <div align="center"><img src="http://iwt2.org/wp-content/uploads/2015/06/tdd-logo-300x235.png"></img></div>
 
-![](https://github.com/lvittor/tdd-with-python/actions/workflows/main.yml/badge.svg?branch=unittest)
+![unittest](https://github.com/lvittor/tdd-with-python/actions/workflows/unittest.yml/badge.svg?branch=unittest)
+![pytest](https://github.com/lvittor/tdd-with-python/actions/workflows/pytest.yml/badge.svg?branch=unittest)
 
 <div align="center"><p><b>The best way to develop & maintain a big python project</b></p></div>
 
