@@ -23,7 +23,7 @@ poetry install
 For Windows installation you can follow the [Python documentation](https://www.python.org/downloads/) and [Pip tutorial](https://www.liquidweb.com/kb/install-pip-windows/)
 
 ## Running the tests
-With all the requirements met, you can, for lack of a better word, test the tests, by running the folowing command:
+With all the requirements met, you can, for lack of a better word, test the tests, by running the following command:
 
 ```bash
 poetry run python -m unittest tests/test_suite.py
