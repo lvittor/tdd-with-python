@@ -8,7 +8,8 @@
 
 <ul>
     <li><b><a href="https://github.com/lvittor/tdd-with-python/wiki">Wiki</a></b></li>
-    <li><b><a href="https://github.com/lvittor/tdd-with-python">Examples</a></b></li>
+    <li><b><a href="https://github.com/lvittor/tdd-with-python/tree/unittest">unittest Examples</a></b></li>
+    <li><b><a href="https://github.com/lvittor/tdd-with-python/tree/pytest">Pytest Examples</a></b></li>
 </ul>
 
 ### Contributors
