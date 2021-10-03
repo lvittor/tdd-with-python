@@ -18,6 +18,6 @@
 <a href="https://github.com/festevezz">@festevezz</a>
 <a href="https://github.com/lvittor">@lvittor</a>
 <a href="https://github.com/mbartellini">@mbartellini</a>
-<a href="https://github.com/Ezequiel-Rodriguez ">@Ezequiel-Rodriguez</a>
-<a href="https://github.com/juani-garcia ">@juani-garcia</a>
+<a href="https://github.com/Ezequiel-Rodriguez">@Ezequiel-Rodriguez</a>
+<a href="https://github.com/juani-garcia">@juani-garcia</a>
 </div>
