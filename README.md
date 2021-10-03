@@ -7,9 +7,9 @@
 
 ## Requirements
 To run the tests you should first install the project requirements.
-- python >=3.8
-- poetry >= 1.1.1
-- pip >= 21.0.1
+- <a href="https://www.python.org/">python >= 3.8</a>
+- <a href="https://python-poetry.org/">poetry >= 1.1.1</a>
+- <a href="https://pypi.org/project/pip/">pip >= 21.0.1</a>
 
 If you do not have this installed, you can do so by running the following commands. 
 
