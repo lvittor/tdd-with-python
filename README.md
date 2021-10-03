@@ -10,7 +10,7 @@ To run the tests you should first install the project requirements.
 - <a href="https://www.python.org/">python >= 3.8</a>
 - <a href="https://python-poetry.org/">poetry >= 1.1.1</a>
 - <a href="https://pypi.org/project/pip/">pip >= 21.0.1</a>
-- <a href="https://docs.pytest.org/en/6.2.x/"pytest >= 5.4.3</a> (The `poetry install` command handles this requirement)
+- <a href="https://docs.pytest.org/en/6.2.x/">pytest >= 5.4.3</a> (The `poetry install` command handles this requirement)
 
 If you do not have this installed, you can do so by running the following commands. 
 
