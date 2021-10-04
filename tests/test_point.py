@@ -30,8 +30,8 @@ def test_equals(setup, set_origin):
     assert set_origin != setup
     assert setup in [Point(_["x"], _["y"]) for _ in points]
 
-def test_str():
-    pass
+def test_str(setup):
+    assert f"{setup}" in ["Point [x:3.00, y:4.00]", "Point [x:1.00, y:2.00]"]
 
-def test_is():
-    pass
+def test_is(setup):
+    assert isinstance(setup, Point)
