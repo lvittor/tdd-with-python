@@ -3,11 +3,11 @@
 ![unittest](https://github.com/lvittor/tdd-with-python/actions/workflows/unittest.yml/badge.svg?branch=unittest)
 ![pytest](https://github.com/lvittor/tdd-with-python/actions/workflows/pytest.yml/badge.svg?branch=pytest)
 
-<div align="center"><p><b>The best way to develop & maintain a big python project</b></p></div>
+<div align="center"><p><b>Test Driven Development with Python</b></p></div>
 
 <ul>
     <li><b><a href="https://github.com/lvittor/tdd-with-python/wiki">Wiki</a></b></li>
-    <li><b><a href="https://github.com/lvittor/tdd-with-python/tree/unittest">unittest Examples</a></b></li>
+    <li><b><a href="https://github.com/lvittor/tdd-with-python/tree/unittest">Unittest Examples</a></b></li>
     <li><b><a href="https://github.com/lvittor/tdd-with-python/tree/pytest">Pytest Examples</a></b></li>
 </ul>
 
