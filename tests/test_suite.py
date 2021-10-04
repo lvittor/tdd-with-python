@@ -1,12 +1,10 @@
 import unittest
 
 from tests import test_point
-from tests import test_ellipse 
+from tests import test_ellipse
 from tests import test_circle
 from tests import test_triangle
-from tests import test_rectangle 
-
-
+from tests import test_rectangle
 
 
 def suite():
@@ -18,7 +16,6 @@ def suite():
     test_suite.addTests(loader.loadTestsFromModule(test_ellipse))
     test_suite.addTests(loader.loadTestsFromModule(test_circle))
     return test_suite
-
 
 
 runner = unittest.TextTestRunner(verbosity=2)
